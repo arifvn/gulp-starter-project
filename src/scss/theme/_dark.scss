@@ -1,0 +1,18 @@
+/*------------------- THEMES -------------------*/
+/* Variables dark theme */
+body.dark-theme {
+  --first-color: hsl(31, 76%, 74%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 75%);
+  --body-color: hsl(0, 0%, 12%);
+  --container-color: hsl(0, 0%, 16%);
+}
+
+/* Theme button */
+.change-theme {
+  color: var(--title-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* Color changes in some parts */

@@ -1,0 +1,10 @@
+/*------------------- FOOTER -------------------*/
+.footer {
+  &__copy {
+    display: block;
+    padding: 3.5rem 0 1rem;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    text-align: center;
+  }
+}

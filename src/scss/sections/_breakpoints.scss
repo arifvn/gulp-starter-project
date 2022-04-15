@@ -1,0 +1,21 @@
+@use '../abstract/breakpoint' as *;
+
+/*------------------- BREAKPOINTS -------------------*/
+@include breakpoint(small) {
+}
+
+@include breakpoint(medium-1) {
+}
+
+@include breakpoint(medium-2) {
+}
+
+@include breakpoint(large-1) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include breakpoint(large-2) {
+}

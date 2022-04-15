@@ -1,0 +1,10 @@
+/*------------------- HEADER -------------------*/
+.header {
+  width: 100%;
+  background-color: var(--body-color);
+  position: fixed;
+  z-index: var(--z-fixed);
+  top: 0;
+  left: 0;
+  transition: var(--layout-transition);
+}

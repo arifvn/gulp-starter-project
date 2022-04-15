@@ -1,0 +1,28 @@
+/*------------------- LAYOUT -------------------*/
+.main {
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.section {
+  padding: 4.5rem 0 1rem;
+
+  &__title {
+    font-size: var(--h2-font-size);
+    line-height: 140%;
+    margin-bottom: var(--mb-2);
+  }
+  &__title-center {
+    text-align: center;
+  }
+}

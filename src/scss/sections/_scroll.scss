@@ -1,0 +1,13 @@
+/*------------------- SCROLL -------------------*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(31, 8%, 60%);
+
+  &-thumb {
+    border-radius: 0.5rem;
+    background-color: hsl(31, 8%, 35%);
+  }
+  &-thumb:hover {
+    background-color: hsl(31, 8%, 30%);
+  }
+}
