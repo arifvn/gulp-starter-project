@@ -19,7 +19,7 @@ function copyHtml() {
 // Css Task
 function cssTask() {
   return src('src/scss/main.scss', { sourcemaps })
-    .pipe(sass().on('error', (error) => console.log(error)))
+    .pipe(sass().on('error', sass.logError))
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(rename({ suffix: '.min' }))
     .pipe(dest('dist/css/', { sourcemaps: '.' }));
